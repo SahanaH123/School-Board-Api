@@ -5,7 +5,8 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class SchoolNotFoundByIdException extends RuntimeException {
-
+public class UnauthorizedException extends RuntimeException {
+	
 	private String message;
+
 }

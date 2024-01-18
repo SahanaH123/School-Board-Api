@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class SchoolNotFoundByIdException extends RuntimeException {
+public class InvalidUserRoleException extends RuntimeException{
 
 	private String message;
 }
